@@ -1,0 +1,29 @@
+bookname: c92book
+booktitle: "Capturing 802.11"
+subtitle: "USB Wi-Fi アダプタ編 (2017)"
+language: ja
+aut: "@n_kane (glenda9)"
+prt: プリントネット株式会社
+prt_url: http://github.com/enukane/
+date: 2017-08-11
+rights: (C) glenda9
+description: Summer 2017, C92 book
+
+# Title page is separated from this generation (coverpage.pdf)
+titlepage: false
+# 奥付生成
+colophon: true
+pubhistory: 2017年 08月 11日 第一版発行
+
+toc: true
+toclevel: 3
+secnolevel: 3
+stylesheet: templaste.css
+texstyle: template
+texdocumentclass: ["jsbook", "uplatex,a4j,openany"]
+mytoc: true
+
+debug: true
+
+
+params: --stylesheet=template.css --footnotetext --chapterlink --subdirmode
